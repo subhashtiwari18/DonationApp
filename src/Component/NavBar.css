@@ -1,0 +1,45 @@
+.navbar-element{
+    background-color:#424f9b;
+    height: 11vh;
+    color: #424f9a;
+    display: flex;
+    
+}
+#home-id{
+    color: #f2f3f7;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.all-home{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-donorlist{
+    margin-left: 20px;
+    color: white;
+}
+#donor-id{
+    color: #f2f3f7;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .navbar-element {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    #home-id,
+    #donor-id,
+    .nav-donorlist {
+        margin: 10px 0;
+    }
+}

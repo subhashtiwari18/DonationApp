@@ -1,0 +1,85 @@
+.Ing-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+
+}
+
+.background-image {
+  margin-top:20px ;
+  margin-left:20px ;
+  max-height: 599px;
+  max-width: 90%;
+  width: 90%;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.image {
+
+  max-width: 100%;
+  height: 200%;
+  display: block;
+  margin-left: 10px;
+}
+
+
+
+.motivation-text {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(12, 12, 12);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 26rem;
+  left: 25rem;
+  transform: translate(-9rem, -18rem);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+
+  color: #FFF;
+
+  font-family: Sansita;
+  font-size: 3rem;
+  width: 265px;
+
+}
+@media screen and (max-width: 768px) {
+  .text-overlay {
+    font-size: 4vw; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-overlay {
+    font-size: 5vw; /* Further adjust font size for even smaller screens */
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .Ing-main {
+    height: auto;
+  }
+
+  .background-image {
+    margin-left: 0;
+  }
+
+  .text-overlay {
+    top: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+}
